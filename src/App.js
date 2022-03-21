@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
+import About from "./components/About";
 
 const Title = styled.h1`
   font-size: 40px;
@@ -28,6 +29,7 @@ class App extends Component {
       <Container>
         <GlobalStyle />
         <Title>Olá</Title>
+        <About nome="Milena" idade="26" estuda="panificacao" />
       </Container>
     );
   }
